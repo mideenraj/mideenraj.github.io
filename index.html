@@ -1,0 +1,216 @@
+
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Test Stuff</title>
+  <Link rel="stylesheet" href="index_style.css" type="text/css">      
+ </head>
+ <body>
+
+
+
+    
+    <nav id='navBar'>
+        <div class='container'>
+
+            <!-- Title (name)-->
+            <div id='title'>
+                <ul>
+                    <li><a id ='name' href=#block_1>Midhun Raj</a></li>
+                </ul>
+            </div>
+
+            <!-- Nav menu-->
+            <div id='menu'>
+                <ul>
+                    <li><a href=#block_2>About</a></li>
+                    <li><a href=#block_3>Skills</a></li>
+                    <li><a href=#block_4>Portfolio</a></li>
+                    <li><a href=#block_5>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class='blocks_container'>
+
+
+        <!-- Intro block-->
+        <div class='child_blocks' id='block_1'>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <div>
+                <p>Hello! I am Midhun Raj</p>
+                <p>A computer science student and aspiring software developer <br>passionate about programming and coding.</p>
+                <a>See My Work</a>
+            </div>
+
+        </div>
+
+
+        <!-- About Block-->
+        <div class='child_blocks' id='block_2'>
+            <!-- Title -->
+            <div>
+                <p></p>
+                <p id='about_title'>About</p>
+            </div>
+
+            <!-- Bio -->
+            <div class='bio_block'>
+                <div></div>
+                <div>
+                    My name is Midhun Raj. I grew up in Lutz, Florida. I am currently enrolled
+                    in Oregon State University's online computer science program and expected to
+                    graduate Summer 2022. In my spare time, I enjoy spending time with my family as 
+                    well as experimenting with new technologies, whether that be learning new
+                    programming languages or familiarizing myself with new framweorks. I have
+                    a deep passion for this field and I plan to grow as a developer and individual
+                    as my career progresses. While I have worked on the frontend for many systems,
+                    I am especially interested in complex systems that require critical thinking 
+                    skills and logic.
+                    
+                </div>
+            </div>
+            
+        </div>
+
+
+
+
+        <!-- Skills-->
+        <div class='child_blocks' id='block_3'>
+            <div>
+                <p></p>
+                <p id='skills_title'>Skills</p>
+            </div>
+
+            
+            <div class='skill_div'>
+
+                <div>
+                    Having completed rigorous programming projects over the course of my
+                    time at Oregon State University, I have confidently say my primary
+                    programming language is <span>Python</span>. Not far behind is <span>Javascript</span>,
+                    as I use it regularly for web development. Additionally, I have
+                    extensively used various backend frameworks such as <span>Express JS</span> and
+                    <span>Flask</span> as well as <span>MySQL</span> for database systems. I am constantly
+                    looking at opportunities to add to my skillset since I truly enjoy this field and 
+                    what it has to offer.
+                </div>
+
+                <div>
+                    <img src='pictures/python_logo.png'>
+                    <img src='pictures/js_logo.png'>
+                    <img src='pictures/mysql_logo.png'>
+                    <img src='pictures/flask_logo.png'>
+                    <img src='pictures/node_logo.png'>
+                    <img src='pictures/express_logo.png'>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <!-- Portfolio -->
+        <div class='child_blocks' id='block_4'>
+            <div>
+                <p></p>
+                <p id='portfolio_title'>Portfolio</p>
+            </div>
+
+
+            <div class='portfolio_div'>
+
+                <a  class='projects' id='project_1' href='https://www.google.com'>
+                    <div>
+                        <img src='pictures/cerberus_pic.png'>
+                        <div id='description'>A multi-purpose web application capabale of satisfying
+                            a variety of both your informational and entertainment needs.
+                        </div>  
+                        <div id='p_title'>
+                            Cerberus
+                        </div>
+                    </div>
+                </a>
+
+                <a  class='projects' id='project_2' href='https://www.google.com'>
+                    <div>
+                        <img src='pictures/cerberus_pic.png'>
+                        <div id='description'>
+                            A chess AI written using python that yo can play against. The user interface was constructred
+                            using the pygame module.
+                        </div>  
+                        <div id='p_title'>
+                            Chessmaster
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Contact form -->
+        <div class='child_blocks' id='block_5'>
+
+            <div>
+                <p></p>
+                <p id='contact_title'>Contact Me</p>
+            </div>
+
+            <div class='contactFormDiv'>
+                <form action='https://formspree.io/f/xeqvnezy' method='post'>
+                    <div>
+                        <div>
+                            <label for='Fullname'>Name</label><br>
+                            <input type='text' id='fullname' name='Fullname' required>
+                        </div>
+                        <div>
+                            <label for='Email'>Email</label><br>
+                            <input type='email' id='email' name='Email' required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for='Message'>Message</label><br>
+                        <textarea type='text' id='message' name='Message' required></textarea>
+                    </div>
+                    <div><button type='submit'>Send Message</button></div>
+
+                </form>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div id='footer'>
+        <p>Copyright &copy; 2020 Midhun Raj</p>
+    </div>
+
+
+
+   
+
+
+
+
+    <script>
+    </script>      
+ </body>
+</html>

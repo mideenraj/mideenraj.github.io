@@ -1,0 +1,388 @@
+
+body{
+    margin: 0px;
+}
+
+
+
+
+/* ---------- Navigation bar ---------- */
+
+nav{
+    width: 100%;
+    height: 65px;
+    background-color: grey;
+    opacity: 0.7;
+    position: fixed;
+    justify-content: space-between;
+    transition: 0.6s;
+}
+
+nav.sticky{
+    background: black;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#title{
+    margin: auto;
+}
+
+#name{
+    font-size: 30px;
+}
+
+#menu{
+    margin: auto;
+    text-align: center;
+}
+
+
+#menu > ul{
+    display: flex;
+}
+
+
+div > ul > li{
+    list-style-type: none;
+    
+}
+
+div > ul > li > a{
+    text-decoration: none;
+    padding: 0 20px;
+    font: 40px Impact, Impact;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+ 
+}
+
+div > ul > li > a:hover{
+    color: greenyellow;
+}
+
+
+
+
+/* ---------- Block container/ General style ---------- */
+.blocks_container{        /* Main container */
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+}
+
+.blocks_container > .child_blocks > div{  /* Title line/text container */
+    margin-top: -20px;
+}
+
+.blocks_container > .child_blocks > div:nth-child(1) > p:nth-child(1){  /* Title line */
+    width: 100%;
+    height: 5px;
+    background-color: greenyellow;
+}
+
+.blocks_container > .child_blocks > div:nth-child(1) > p:nth-child(2){  /* Title text */
+    font: 40px Impact, Impact;
+    margin-left: 40px;
+    margin-top: -15px;
+}
+
+span{
+    color: greenyellow
+}
+
+
+
+
+
+
+
+/* ---------- Intro block (1) ---------- */
+#block_1{ 
+    background-image: url('pictures/bi5.jpg');
+    height: 1000px;
+    background-size: cover;
+    text-align: center;
+}
+
+#block_1 > div > p:nth-child(1){
+    font: 35px Impact, Impact;
+    color: greenyellow;
+    letter-spacing: 1px;
+}
+
+#block_1 > div > p:nth-child(2){
+    margin-top: -20px;
+    font: 25px Impact, Impact;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#block_1 > div > a{
+    color: white;
+    font: 25px Impact, Impact;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#block_1 > div > a:hover{
+    color: greenyellow;
+}
+
+
+
+
+
+/* ---------- About block (2) ---------- */
+#block_2{
+    background-color: grey;
+    height: 650px;
+}
+#about_title{
+    color: white;
+}
+
+.bio_block{
+    display: flex;
+    padding: 65px;
+}
+
+.bio_block > div:nth-child(1){         /* Bio pic */
+    float: left;
+    background-image: url('pictures/bioPic.jpg');
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 2px solid greenyellow;
+    padding: 44px;
+    margin-right: 100px;
+}
+
+.bio_block > div:nth-child(2){        /* Bio text */
+    float: right;
+    font: 30px Impact, Impact;
+    height: 250px;
+    width: 80%;
+    color: grey;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+    overflow-y: auto;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+/* ---------- Skills block (3) ---------- */
+#block_3{
+    background-color: white;
+    height: 700px;
+}
+#skills_title{
+    color: grey;
+}
+
+
+.skill_div{
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.skill_div > div:nth-child(1){
+    font: 30px Impact, Impact;
+    margin: 50px;
+    float: left;
+    width: 800px;
+    height: 400px;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: grey;
+    overflow-y: auto;
+    letter-spacing: 1px;
+}
+
+
+.skill_div > div:nth-child(2){
+    margin: 50px;
+    float: right;
+    width: 800px;;
+    height: 400px;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: grey;
+}
+
+.skill_div > div > img{
+    max-height: 100px;
+    max-width: auto;
+}
+
+
+
+
+
+/* ---------- Portfolio block (4) ---------- */
+#block_4{
+    background-color: grey;
+    height: 650px;
+}
+#portfolio_title{
+    color: white;
+}
+
+.portfolio_div{
+    display: flex;
+    margin: 0 auto;
+}
+
+.portfolio_div > .projects{
+    margin: 50px;
+    width: 350px;
+    height: 350px;
+    color: grey;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.portfolio_div > #project_1{
+    float: left;
+}
+.portfolio_div > #project_2{
+    float: right;
+}
+.portfolio_div > a:hover{
+    border: 5px solid greenyellow;
+}
+
+
+#description{                     /* Project description */
+    font: 20px Impact, Impact;
+}
+#p_title{                          /* Project name */
+    font: 40px Impact, Impact;
+    text-shadow: 0 0 8px greenyellow;
+    color: grey;
+}  
+
+#project_1 > div > img, #project_2  > div > img{
+    max-width: 300px;
+    max-height: auto;
+}
+
+
+
+
+
+/* ---------- Contact block ---------- */
+#block_5{
+    background-color: white;
+    height: 700px;
+}
+#contact_title{
+    color: grey;
+}
+
+.contactFormDiv{
+    border-radius: 20px;
+    width: 40%;
+    height: 400px;
+    margin: auto;
+    padding: 50px;
+    background-color: grey;
+    overflow: hidden;
+}
+
+
+
+
+.contactFormDiv > form{
+    margin-left: 50px;
+}
+
+.contactFormDiv label{
+    font: 20px Impact, Impact;
+    color: white;
+}
+
+.contactFormDiv button{
+    background-color: white;
+    font: 20px Impact, Impact;
+    color: grey;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.contactFormDiv button:hover{
+    background-color: yellowgreen;
+}
+
+.contactFormDiv input, .contactFormDiv textarea{
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    width: 200px;
+}
+
+
+.contactFormDiv > form > div:nth-child(1){  /* Container housing name and email */
+   display: flex;
+   margin-bottom: 50px;
+   width: 100%;
+
+}
+
+.contactFormDiv > form > div > div:nth-child(1){   /* Name div */
+    float: left;
+    margin-right: 50px;
+    width: 50%;
+}
+
+.contactFormDiv > form > div > div:nth-child(2){    /* Email div */
+    float: right;   
+    width: 50%;
+}
+
+.contactFormDiv > form > div:nth-child(2) textarea{    /* Message input */
+    width: 80%;
+    height: 200px;
+
+}
+
+
+/* ----- Email div ----- */
+#footer{
+    width: 100%;
+    height: 100px;
+    background: grey;
+    text-align: center;
+   
+}
+
+#footer p{
+    font: 20px Impact, Impact;
+    color: white;
+    padding: 35px;
+}
+
+
+
+
+
+
