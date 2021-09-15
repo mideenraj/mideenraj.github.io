@@ -170,7 +170,7 @@ span{
 .bio_block > div:nth-child(2){        /* Bio text */
     float: right;
     font: 30px Impact, Impact;
-    height: 85%;
+    height: 250px;
     width: 80%;
     color: grey;
     border-radius: 20px;
