@@ -55,7 +55,7 @@ div > ul > li{
 div > ul > li > a{
     text-decoration: none;
     padding: 0 20px;
-    font: 40px Impact, Impact;
+    font: 90px Impact, Impact;
     font-size: 20px;
     color: white;
     letter-spacing: 1px;
@@ -155,7 +155,7 @@ span{
 
 .bio_block > div:nth-child(1){         /* Bio pic */
     float: left;
-    background-image: url('pictures/profile_pic.jpg');
+    background-image: url('pictures/pp.JPG');
     height: 200px;
     width: 200px;
     border-radius: 100%;
