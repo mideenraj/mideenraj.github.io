@@ -129,6 +129,7 @@ span{
     border: 2px solid white;
     border-radius: 15px;
     padding: 10px;
+    text-decoration: none;
 }
 
 #block_1 > div > a:hover{
@@ -151,23 +152,25 @@ span{
 .bio_block{
     display: flex;
     padding: 65px;
+    margin: auto;
 }
 
 .bio_block > div:nth-child(1){         /* Bio pic */
     float: left;
-    background-image: url('pictures/pp.JPG');
+    background-image: url('pictures/pp.jpg');
     height: 200px;
     width: 200px;
     border-radius: 100%;
     border: 2px solid greenyellow;
     padding: 44px;
     margin-right: 100px;
+    margin: auto;
 }
 
 .bio_block > div:nth-child(2){        /* Bio text */
     float: right;
     font: 30px Impact, Impact;
-    height: 250px;
+    height: 85%;
     width: 80%;
     color: grey;
     border-radius: 20px;
@@ -175,6 +178,7 @@ span{
     background-color: white;
     overflow-y: auto;
     letter-spacing: 1px;
+    margin: 10px;
 }
 
 
@@ -193,8 +197,7 @@ span{
 
 .skill_div{
     display: flex;
-    margin: 0 auto;
-
+    margin: auto;
 }
 
 .skill_div > div:nth-child(1){
