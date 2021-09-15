@@ -155,7 +155,7 @@ span{
 
 .bio_block > div:nth-child(1){         /* Bio pic */
     float: left;
-    background-image: url('pictures/bioPic.jpg');
+    background-image: url('pictures/bioPic.JPG');
     height: 200px;
     width: 200px;
     border-radius: 100%;
