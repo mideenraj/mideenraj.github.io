@@ -287,6 +287,9 @@ span{
     max-height: auto;
 }
 
+#project_2{             /* Block hidden until project is 100% complete */
+    display: none;
+
 
 
 
