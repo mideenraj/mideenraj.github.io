@@ -259,6 +259,9 @@ span{
     background-color: white;
     text-align: center;
     text-decoration: none;
+
+    overflow-y: hidden;
+    overflow-x: auto;
 }
 
 
