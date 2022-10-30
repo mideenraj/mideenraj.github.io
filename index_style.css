@@ -247,6 +247,9 @@ span{
 .portfolio_div{
     display: flex;
     margin: 0 auto;
+
+    overflow-y: hidden;
+    overflow-x: auto;
 }
 
 .portfolio_div > .projects{
@@ -258,10 +261,7 @@ span{
     padding: 30px;
     background-color: white;
     text-align: center;
-    text-decoration: none;
-
-    overflow-y: hidden;
-    overflow-x: auto;
+    text-decoration: none;    
 }
 
 
