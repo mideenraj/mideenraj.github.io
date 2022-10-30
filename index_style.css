@@ -255,7 +255,7 @@ span{
 .portfolio_div > .projects{
     margin: 50px;
     width: 350px;
-    height: 350px;
+    height: 400px;
     color: grey;
     border-radius: 20px;
     padding: 30px;
@@ -291,7 +291,7 @@ span{
 }
 
 #project_1 > div > img{
-    max-width: 200px;
+    max-width: 250px;
     max-height: auto;
 }
 
