@@ -282,8 +282,13 @@ span{
     color: grey;
 }  
 
-#project_1 > div > img, #project_2  > div > img{
+#project_2  > div > img, #project_3  > div > img{
     max-width: 300px;
+    max-height: auto;
+}
+
+#project_1 > div > img{
+    max-width: 200px;
     max-height: auto;
 }
 
