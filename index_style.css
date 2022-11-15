@@ -295,6 +295,11 @@ span{
     max-height: auto;
 }
 
+#project_4 > div > img{
+    max-width: 350px;
+    max-height: auto;
+}
+
 
 
 
